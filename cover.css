@@ -66,6 +66,7 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  
 }
 
 .nav-masthead .nav-link {
@@ -116,5 +117,6 @@ body {
  * Footer
  */
 .mastfoot {
+  background-color: rgb(145, 52, 52);
   color: rgba(255, 255, 255, .5);
 }
