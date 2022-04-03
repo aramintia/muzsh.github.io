@@ -41,5 +41,11 @@ function makeOne() {
     obje.push(make());
     
     }
+function delay() {
+    //video delay by 33 seconds
+    var video = document.getElementById("bgvid");
+    video.play()
 
+    //setTimeout(video.play(), 1000);
+    }
 }
