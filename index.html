@@ -33,7 +33,7 @@
   </head>
   <div class="video">
       <video id = "bgvid" loop muted playsinline preload>
-        <source src= "redeye2.mp4">
+        <source src= "redeye.mp4">
     </div>
   
   <body class="text-center">
@@ -83,14 +83,23 @@
 
 <script>
   window.onload = function(){
+    
     setTimeout(loadAfterTime, 32333)
+    setTimeout(loadAfterTime2, 262001)
  };
  
+ function loadAfterTime2() 
+  {
+    var video = document.getElementById('bgvid');
+    video.setAttribute('src', 'redeye2.mp4');
+    video.load();
+    video.play();
+  }
  
  function loadAfterTime() 
  {
   var video = document.getElementById("bgvid");
-  video.play()
+  video.play();
  // code you need to execute goes here. 
  }
  </script>
