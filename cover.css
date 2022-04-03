@@ -99,7 +99,6 @@ body {
  */
 .masthead {
   margin-bottom: 3rem;
-  background-color: rgb(30,94,92);
 }
 
 .masthead-brand {
@@ -155,9 +154,8 @@ body {
  * Footer
  */
 .mastfoot {
-  background-color: rgb130,94,92);
   color: rgba(255, 255, 255, .5);
-}
+  }
 /*--- Bootstrap Mobile Gutter Fix --*/
 .row, .container-fluid {
   margin-left: 0px!important;
