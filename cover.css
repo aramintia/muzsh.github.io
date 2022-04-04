@@ -89,7 +89,7 @@ body {
   -moz-background-size: cover;
   background-size: 83%;
   -o-background-size: cover;
-  opacity: .8;
+  opacity: .96;
   border-radius: 10000cm;
   border-color: white;
   border-image: 10cm;
@@ -248,7 +248,7 @@ body {
     https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png); 
 }
 .five2 {
-  opacity: .7;
+  opacity: .6;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png); 
 } 
