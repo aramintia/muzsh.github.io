@@ -80,7 +80,7 @@ body {
       ----------------------------------
   */
 
-  background: url('02.jpg') no-repeat center center fixed transparent;  
+  background: url('01.png') no-repeat center center fixed transparent;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -216,34 +216,20 @@ body {
 } 
 
 .expanding-container { 
-
   display: flex; 
-
   width: 100%; 
-
 } 
-
 /* Background properties and  
     transition effect to section */ 
-
 .section { 
-
   background-size: cover; 
-
   background-position: center; 
-
   background-repeat: repeat; 
-
   height: 50vh; 
-  
   cursor: pointer; 
-
   flex: 2; 
-
   margin: 1px; 
-
   position: relative; 
-
   transition: all .6s ease-out; 
 
 } 
