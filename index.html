@@ -60,7 +60,7 @@
     </main>
     
     <p>
-      <audio controls playsinline id="myaudio" >
+      <audio controls autoplay playsinline id="myaudio" >
         <source src="https://github.com/MuzSh/muzsh.github.io/raw/main/Ochre%20-%20Anaphora.mp3" type="audio/mp3" autoplay>
       </audio>
     </p>
@@ -199,7 +199,7 @@
     setTimeout(loadAfterTime3, 160000)
     //setTimeout(loadAfterTime3, 294934)
     //setTimeout(loadAfterTime3, 557934)
-     };
+    };
      
     function loadAfterTime3() 
     {
@@ -218,7 +218,7 @@
     function loadAfterTime() 
     {
     var video = document.getElementById("bgvid");
-    video.load
+    video.load()
     video.play();
     // code you need to execute goes here. 
     }

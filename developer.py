@@ -10,5 +10,5 @@ developer = {
     "webDevelopment": ["React", "Node"],
     "database": ["PogreSQL", "MongoDB"],
     "technologies": ["VS Code"]
-}   
+}    
 
