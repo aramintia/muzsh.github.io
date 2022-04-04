@@ -188,40 +188,40 @@ body {
   
 /*expanding cards
 */
-.one {
-  opacity: 0.5;
+.one { 
+  opacity: 0.8;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png); 
   
   } 
 .two {
-  opacity: 0.5;
+  opacity: 0.9;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png); 
 } 
 .three {
-  opacity: 0.5;
+  opacity: 0.7;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png); 
 } 
 .four {
-  opacity: 0.5;
+  opacity: 0.;
   background: url( 
     https://cdn.worldvectorlogo.com/logos/c--4.svg); 
 }
 .five {
-  opacity: 0.5;
+  opacity: 0.4;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png); 
 }
 .six {
-  opacity: 0.5;
+  opacity: 0.3;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Kotlin_Icon.svg/2048px-Kotlin_Icon.svg.png); 
 }
 
 .one2 {
-  opacity: 0.5;
+  opacity: 0.9;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png); 
   
@@ -242,7 +242,7 @@ body {
     https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png); 
 }
 .five2 {
-  opacity: 0.5;
+  opacity: .7;
   background: url( 
     https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png); 
 } 
