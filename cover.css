@@ -48,7 +48,7 @@ a:hover {
     background: url('') no-repeat;
     background-size: cover;
     transition: 1s opacity;
-    filter:opacity(10%)
+    filter:opacity(22%)
   }
 
 /* Custom default button */
@@ -70,8 +70,8 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  opacity: 0.9;
 }
-
 body {
   display: -ms-flexbox;
   display: flex;
@@ -83,16 +83,14 @@ body {
               UPDATE IMAGE BELOW
       ----------------------------------
   */
-
-  background: url('01.jpg') no-repeat center center fixed transparent;  
+  background: url('01b.jpg') no-repeat center center fixed transparent;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: 83%;
   -o-background-size: cover;
   opacity: .96;
-  border-radius: 10000cm;
-  border-color: white;
-  border-image: 10cm;
+  border-radius: 300px;
+  border-image: 10cm
 }
 
 .cover-container {
