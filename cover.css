@@ -80,7 +80,7 @@ body {
       ----------------------------------
   */
 
-  background: url('01.jpg') no-repeat center center fixed transparent;  
+  background: url('01.png') no-repeat center center fixed transparent;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
