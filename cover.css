@@ -1,7 +1,10 @@
 /*
  * Globals
  */
-
+html
+{
+  scroll-behavior: smooth;
+}
 /* Links */
 a,
 a:focus,
@@ -45,7 +48,7 @@ a:hover {
     background: url('') no-repeat;
     background-size: cover;
     transition: 1s opacity;
-    filter:opacity(20%)
+    filter:opacity(10%)
   }
 
 /* Custom default button */
@@ -84,10 +87,12 @@ body {
   background: url('01.png') no-repeat center center fixed transparent;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: 83%;
   -o-background-size: cover;
-  opacity: .7;
-
+  opacity: .8;
+  border-radius: 10000cm;
+  border-color: white;
+  border-image: 10cm;
 }
 
 .cover-container {
@@ -131,10 +136,10 @@ body {
 
 @media (min-width: 48em) {
   .masthead-brand {
-    float: left;
+    float: center;
   }
   .nav-masthead {
-    float: right;
+    float: center;
   }
 }
 

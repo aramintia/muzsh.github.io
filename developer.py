@@ -1,8 +1,9 @@
 developer = {
     "name": "Muzamal Sheikh",
     "aspiration": "Software Developer / Software Engineer/ Full-Stack Developer",
-    "education-Major": "Bachelor's in Computer Science",
-    "education-Minor": "Minor in Mathematics",
+    "Major": "Computer Science",
+    "Masters": "Data Science",
+    "Minor": "Mathematics",
     "college": "Ramapo College of New Jersey",
     "languages": ["Python", "C++" ,"JavaScript" ,"C#", "TypeScript", "Kotlin"],
     "webDevelopment": ["React", "Node"],
