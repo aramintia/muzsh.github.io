@@ -26,26 +26,20 @@ function make() {
     };
 }
 function sleep(miliseconds) {
-    var currentTime = new Date().getTime();
- 
-    while (currentTime + miliseconds >= new Date().getTime()) {
-    }
+  var currentTime = new Date().getTime();
+
+  while (currentTime + miliseconds >= new Date().getTime()) {
+  }
  }
 
-function makeOne() {
-    for (let i = 0; i < 1; i++) {
-       obje.push(make());
-       
-    }
-    for (let i = 0; i < 2; i++) {
-    obje.push(make());
-    
-    }
-function delay() {
-    //video delay by 33 seconds
-    var video = document.getElementById("bgvid");
-    video.play()
-
-    //setTimeout(video.play(), 1000);
-    }
+function makeOne() 
+{
+  for (let i = 0; i < 1; i++) {
+      obje.push(make());
+      
+  }
+  for (let i = 0; i < 2; i++) {
+  obje.push(make());
+  
+  }
 }

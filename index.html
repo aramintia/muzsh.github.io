@@ -37,6 +37,7 @@
     </div>
   
   <body class="text-center">
+    
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
@@ -44,10 +45,8 @@
       
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="about.html">Resume</a>
         <a class="nav-link" href="#">Contact</a>
-        <a class="nav-link" onclick='makeOne()' href="#">Do Not Click Me!</a>
       </nav>
     </div>
     
@@ -60,55 +59,75 @@
     <h1 class="cover-heading"></h1>
   </main>
   
-  
-  <p class="lead">
-    <a href="#" class="btn btn-lg btn-secondary">Under construction...sit back and relax for now...enjoy the music.</a>
-    <audio controls>
-      <source src="https://github.com/MuzSh/muzsh.github.io/raw/main/Body%20San%20-%20M.%20Baysden%20-%20Midnight%20EP%20-%20%5BSILK107%5D%20-%202019.mp3" type="audio/mp3" autoplay>
-    </audio>
-    <audio controls autoplay loop>
+  <p>
+    <audio controls autoplay id="myaudio" loop >
       <source src="https://github.com/MuzSh/muzsh.github.io/raw/main/Ochre%20-%20Anaphora.mp3" type="audio/mp3" autoplay>
     </audio>
   </p>
-  
+  <p class="lead">
+    <a href="#" class="btn btn-lg btn-secondary">Under construction...sit back and relax for now...enjoy the music.</a>
+  </p>
+    <div class="expanding-container"> 
+      <div class="section one active"></div> 
+      <div class="section two"></div> 
+      <div class="section three"></div> 
+      <div class="section four"></div> 
+      <div class="section five"></div> 
+    </div>
+    <script> 
+      const sections = document.querySelectorAll(".section"); 
+      sections.forEach((section) => { 
+        section.addEventListener("click", () => { 
+          sections.forEach((section) => { 
+            section.classList.remove("active"); 
+          }); 
+          section.classList.add("active"); 
+        }); 
+      }); 
+    </script>
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>Meanwhile connect with me on <a href="https://www.linkedin.com/in/muzamal-sheikh/">LinkedIn</a> to collaborate!</a></p>
+      <h >Check out this code on <a href="https://github.com/MuzSh/muzsh.github.io">Github</a>!</a></h>
+      <h>Connect with me on <a href="https://www.linkedin.com/in/muzamal-sheikh/">LinkedIn</a>!</a></h>
+      <p>©Muzamal Sheikh 2022</p>
     </div>
   </footer>
-
-</div>
 </body>
 
+
 <script>
-  window.onload = function(){
-    
+  window.onload = function()
+    {
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.3;
     setTimeout(loadAfterTime, 32333)
     setTimeout(loadAfterTime2, 64000)
     setTimeout(loadAfterTime3, 160000)
     //setTimeout(loadAfterTime3, 294934)
     //setTimeout(loadAfterTime3, 557934)
- };
- 
-  function loadAfterTime3() 
-  {
-    var video = document.getElementById('bgvid');
-    video.setAttribute('src', 'glb.mp4');
-    video.load();
+     };
+     
+    function loadAfterTime3() 
+    {
+      var video = document.getElementById('bgvid');
+      video.setAttribute('src', 'glb.mp4');
+      video.load();
+      video.play();
+    }
+    function loadAfterTime2() 
+    {
+      var video = document.getElementById('bgvid');
+      video.setAttribute('src', 'redeye2.mp4');
+      video.load();
+      video.play();
+    }
+    function loadAfterTime() 
+    {
+    var video = document.getElementById("bgvid");
+    video.load
     video.play();
-  }
-  function loadAfterTime2() 
-  {
-    var video = document.getElementById('bgvid');
-    video.setAttribute('src', 'redeye2.mp4');
-    video.load();
-    video.play();
-  }
-  function loadAfterTime() 
-  {
-  var video = document.getElementById("bgvid");
-  video.play();
- // code you need to execute goes here. 
-  }
+    // code you need to execute goes here. 
+    }
+    
  </script>
 </html>
