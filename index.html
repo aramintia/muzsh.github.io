@@ -5,7 +5,7 @@
   <head>
     <script src="oper.js"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll v4.0.1">
@@ -60,7 +60,7 @@
     </main>
     
     <p>
-      <audio controls autoplay id="myaudio" >
+      <audio controls playsinline id="myaudio" >
         <source src="https://github.com/MuzSh/muzsh.github.io/raw/main/Ochre%20-%20Anaphora.mp3" type="audio/mp3" autoplay>
       </audio>
     </p>
@@ -193,6 +193,7 @@
     {
     var audio = document.getElementById("myaudio");
     audio.volume = 0.3;
+    audio.play();
     setTimeout(loadAfterTime, 32333)
     setTimeout(loadAfterTime2, 64000)
     setTimeout(loadAfterTime3, 160000)
