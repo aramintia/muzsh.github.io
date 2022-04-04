@@ -8,7 +8,7 @@ developer = {
     "college": "Ramapo College of New Jersey",
     "languages": ["Python", "C++", "JavaScript", "C#", "TypeScript", "Kotlin"],
     "webDevelopment": ["React", "Node"],
-    "database": ["PogreSQL", "MongoDB"],
+    "database": ["PostgreSQL", "MongoDB"],
     "technologies": ["VS Code"]
 }    
 
