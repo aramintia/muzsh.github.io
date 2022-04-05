@@ -34,7 +34,7 @@
   </head>
   <div class="video">
       <video id = "bgvid" loop muted playsinline preload>
-        <source src= "redeye.mp4">
+        <source src= "./src/video/redeye.mp4">
   </div>
   <body class="text-center">
       
@@ -191,7 +191,6 @@
   window.onload = function() {
     var audio = document.getElementById("myaudio");
     audio.volume = 0.3;
-    audio.load();
     audio.play();
     setTimeout(loadAfterTime, 32333);
     setTimeout(loadAfterTime2, 64000);
@@ -203,21 +202,20 @@
     function loadAfterTime3() 
     {
       var video = document.getElementById('bgvid');
-      video.setAttribute('src', 'glb.mp4');
+      video.setAttribute('src', './src/video/glb.mp4');
       video.load();
       video.play();
     }
     function loadAfterTime2() 
     {
       var video = document.getElementById('bgvid');
-      video.setAttribute('src', 'redeye2.mp4');
+      video.setAttribute('src', './src/video/redeye2.mp4');
       video.load();
       video.play();
     }
     function loadAfterTime() 
     {
     var video = document.getElementById("bgvid");
-    video.load()
     video.play();
     // code you need to execute goes here. 
     }

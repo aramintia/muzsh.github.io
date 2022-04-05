@@ -74,7 +74,7 @@ body {
               UPDATE IMAGE BELOW
       ----------------------------------
   */
-  background: url('01b.jpg') no-repeat center center fixed transparent;  
+  background: url('./src/images/01b.jpg') no-repeat center center fixed transparent;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: 83%;
